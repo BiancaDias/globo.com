@@ -1,0 +1,312 @@
+body{
+    font-family: 'Encode Sans', sans-serif; /*deixa tudo na mesma fonte*/   
+}
+.corpo{
+    display: flex;
+	flex-direction: column;
+    align-items: center; 
+}
+.Logo{
+    height: 80px;
+    width: 1250px;
+    display: flex;
+    justify-content: center; /*alinha na horizontal*/
+    align-items: center; /*alinha na vertical*/
+}
+.logoGlobo{
+    width: 171px;
+    height: 36px;
+    margin: auto;
+}
+.borda{
+    border-bottom: 1px solid #F5F6F7;
+    width: 100%;
+}
+   
+.Menu{
+    height: 44px;
+    width: 1250px;
+    font-weight: 700;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between; /*espaço igual entre os textos*/
+    align-items: center;
+   
+}
+.g1{
+    text-decoration: none;
+    color: #c3170c;
+    width: 40px;   
+}
+.o-globo{
+    text-decoration: none;
+    color: #1E4B9B;   
+    width: 89px;
+}
+.valor{
+    text-decoration: none;
+    color: #006766;  
+    width: 70px;
+}
+.ge{
+    text-decoration: none;
+    color: #07AA47;
+    width: 45px;
+}
+.cartola{
+    text-decoration: none;
+    color:#E3662B; 
+    width: 86px;
+}
+.globoplay{
+    text-decoration: none;
+    color:#FB0735;  
+    width: 113px;
+}
+.dropz{
+    text-decoration: none;
+    color:#FF75BB; 
+    width: 75px;
+}
+.gshow{
+    text-decoration: none;
+    color:#EC7D00; 
+    width: 84px;
+}
+.quem{
+    text-decoration: none;
+    color:#323333;
+    width: 74px;
+}
+.receitas{
+    text-decoration: none;
+    color:#A81D83;
+    width: 93px;
+}
+.link{
+    text-decoration: none;
+}
+
+.Noticias{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    
+}
+.Noticias-lado-principal{
+    margin-top: 36px;
+    height: 877px; /*medida colida da borda inferior, até a borda abaixo dos links g1, o globo e etc menos a magin-top*/
+    width: 662.5px;   
+}
+.vacina{
+    color: #C4160C;
+    width: 624px;
+    height: 201px;
+    background-color: white;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;    
+}
+.noticinhas{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ministros{
+    margin-top: 29px;
+    margin-bottom: 7px;
+    color: #303134;
+    width: 622px;
+    height: 25px;
+}
+.bandeiras{
+    color:#303134;
+    width: 622px;
+    height: 25px;
+    margin-bottom: 25px;   
+}
+.divisoria-horizontal{
+    border-top: 1px solid #EBEDEF;
+    margin-bottom: 25px;
+    width: 624px;
+}
+.noticias-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.noticias-individuais-fotos{
+    display: flex;
+    width: 193px;
+    margin-right: 24px;
+}
+.imagens-lado-esquerdo{
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+.chamada-imagens-lado-esquerdo{
+    text-decoration: none;
+    margin-top:11px;
+    font-size: 14px;
+    color: #C4170C;
+    font-weight: 500;   
+}
+.titulo-lado-esquerdo{
+    color: #2F3134;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    width: 192px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+}
+.subtitulo-lado-esquerdo{
+    color:#2F3134;
+    font-size:14px;
+    margin-top:4.5px;
+    width: 174px;
+    height: 42.5px;
+    line-height: 19px;
+    margin-bottom: 36px;
+    letter-spacing: -0.048em;
+    font-weight: 400;
+}
+
+.noticias-texto{
+    display: flex;  
+}
+
+.divisoria-vertical{
+    border-right: 1px solid #EBEDEF;
+    height: 845px;
+    margin-left: 12px;
+    margin-right: 35px;
+}
+.Noticias-lado-direito{
+    margin-top: 36px;
+    height: 877px;
+    width: 587.5px;
+    display: flex;
+}
+
+.imagens-lado-direito{
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+
+.chamada-imagens-lado-direito-verde{
+    width: 240px;
+    height: 19px;
+    color: #16AE54;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 11px;
+    font-weight: 500;   
+}
+
+.titulo-lado-direito{
+    color: #2F3134;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    width: 240px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+}
+.subtitulo-lado-direito{
+    color:#2F3134;
+    font-size:14px;
+    margin-top:4px;
+    width: 217px;
+    height: 43px;
+    line-height: 19px;
+    margin-bottom: 36px;
+    letter-spacing: -0.048em;
+    font-weight: 400;
+    margin-bottom: 50px;   
+}
+.espaco-entre-as-duas-ultimas-noticias{
+    margin-top: 42px;
+}
+
+.divisoria-vertical-2{
+    border-right: 1px solid #EBEDEF;
+    height: 845px;
+    margin-left: 35px;
+    margin-right: 36px;
+}
+
+.chamada-imagens-lado-direito-laranja{
+    width: 240px;
+    height: 19px;
+    color: #EC8006;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 11px;
+    font-weight: 500;   
+}
+
+.titulo-lado-direito-cesar{ /*teve que ter esse separado por causa da margem inferior que ficou diferente das outras*/
+    color: #2F3134;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    width: 240px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    margin-bottom: 23px;
+}
+
+.vdd-secreta{
+    width: 240px;
+    height: 84px;
+}
+
+.titulo-lado-direito-vdd-secreta{
+    color: #2F3134;
+    font-size: 20px;
+    font-weight: 700;
+    width: 240px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    margin-bottom: 13px;
+}
+
+.subtitulo-lado-direito-vdd-secreta{
+    color:#2F3134;
+    font-size:14px;
+    width: 217px;
+    height: 21px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+
+.titulo-lado-direito-imperador{
+    color: #2F3134;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    width: 240px;
+    height: 26px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    margin-bottom: 8px;
+}
+.subtitulo-lado-direito-imperador{
+    color:#2F3134;
+    font-size:14px;
+    width: 217px;
+    height: 43px;
+    line-height: 19px;
+    margin-bottom: 36px;
+    letter-spacing: -0.048em;
+    font-weight: 400;
+    margin-bottom: 50px;   
+}
+
